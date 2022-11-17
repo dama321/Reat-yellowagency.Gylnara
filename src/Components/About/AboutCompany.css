@@ -1,0 +1,11 @@
+.comp {
+  background-color: yellow;
+}
+.office {
+  text-align: justify;
+  text-indent: 40px;
+  margin: 20px 100px;
+  font-size: 25px;
+  font-weight: italic;
+  font-style: italic;
+}

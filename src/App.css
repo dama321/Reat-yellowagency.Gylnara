@@ -1,0 +1,114 @@
+.container {
+  /* position: relative; */
+}
+
+header {
+  position: sticky;
+  top: 0;
+  width: 100%;
+  height: 120px;
+  z-index: 1;
+  background-color: rgba(128, 128, 128, 0.549);
+  opacity: 2;
+}
+
+.headerRight {
+  display: flex;
+  justify-content: center;
+  width: 45%;
+  color: red;
+}
+
+.nav_bar a {
+  text-decoration: none;
+  color: yellow;
+  margin: 0 10px;
+  white-space: nowrap;
+}
+
+.carousel-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.carousel-text {
+  align-self: center;
+}
+
+.team {
+  width: 10%;
+  color: rgb(255, 255, 0);
+  writing-mode: vertical-lr;
+  letter-spacing: -4px;
+  text-orientation: upright;
+  font-weight: 900;
+  margin: auto 0;
+  font-style: oblique;
+}
+
+.pagination-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  font-weight: 500;
+  font-size: 15px;
+}
+.pagination-container a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+  height: 40px;
+  width: 40px;
+  text-decoration: none;
+  transition: background-color 0.2s;
+  border: 1px solid #ddd;
+  cursor: pointer;
+}
+
+.pagination-container a.active {
+  background-color: #007bff;
+  color: white;
+  border: 1px solid #7cbddb;
+}
+.pagination-container a.disabled {
+  opacity: 0.2;
+}
+.pagination-container a:hover:not(.active) {
+  background-color: rgb(238, 238, 238);
+}
+
+@media all and (max-width: 1000px) {
+  .cases_nav,
+  .clients_nav,
+  .reviews_nav {
+    display: none;
+  }
+}
+
+@media all and (max-width: 768px) {
+  .nav_bar {
+    display: none;
+  }
+  .nav_icons {
+    display: block;
+  }
+  .home-nav {
+    display: block;
+  }
+}
+
+@media all and (max-width: 425px) {
+  .nav_bar {
+    display: none;
+  }
+  .nav_icons {
+    display: none;
+  }
+  .home-nav {
+    display: none;
+  }
+}

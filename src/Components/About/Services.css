@@ -1,0 +1,37 @@
+.servic {
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSeCRTipdWp-6SgXi3duZ7lHtU8wdtcbpIg1U43dkxuf6tFkDhmLq7Cd-03PNWAjsCSFM8&usqp=CAU);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-clip: content-box;
+  /* display: flex; */
+  /* justify-content: center;
+  align-items: center; */
+}
+
+.servic h3 {
+  font-size: 30px;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.servic ul li {
+  margin: 20px 50px;
+  font-size: 25px;
+  font-weight: bold;
+}
+.servic p {
+  text-align: justify;
+  text-indent: 30px;
+  margin: 30px 10px;
+  font-size: 15px;
+  font-weight: italic;
+  font-style: italic;
+}
+
+@media all and (max-width: 460px) {
+  .servic {
+    flex-direction: column;
+  }
+}

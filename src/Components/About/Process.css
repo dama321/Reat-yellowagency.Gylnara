@@ -1,0 +1,22 @@
+.process {
+  display: flex;
+  justify-content: space-around;
+}
+.block {
+  background-color: pink;
+  color: black;
+  width: 250px;
+  height: 110px;
+  font-size: 3vmin;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  border-radius: 60px;
+}
+
+@media all and (max-width: 460px) {
+  .process {
+    flex-direction: column;
+  }
+}

@@ -1,0 +1,97 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* !========= Navbar start ==================== */
+nav {
+  height: 80px;
+  width: 100%;
+  display: flex;
+  background-color: rgba(167, 167, 167, 0.5);
+  align-items: center;
+  justify-content: space-around;
+  position: fixed;
+  top: 0;
+  bottom: 50;
+  right: 0;
+  left: 0;
+  z-index: 1;
+}
+.nav__left h2 {
+  font-size: 25px;
+  letter-spacing: 1px;
+  font-family: sans-serif;
+  color: rgb(242, 189, 17);
+}
+/* .nav__left img {
+    width: 130px;
+  } */
+.nav__center {
+  width: 30%;
+}
+.nav__center ul {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  list-style-type: none;
+  cursor: pointer;
+  /* text-decoration: none; */
+}
+/* ?=========== Navbar finish ============ */
+
+/* ! ============ slider start ============= */
+
+/* ? ========== slider finish ========= */
+
+/* ! ====== Section 1 title-yellow start */
+.container__title-yellow h1 {
+  color: yellow;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  flex-direction: row;
+  position: absolute;
+  width: 100%;
+  margin-top: 2%;
+}
+
+/* ? ==== Section 1 title-yellow end */
+
+/* ! ==== Section__team  start*/
+.section__team {
+  display: flex;
+  justify-content: space-around;
+
+  margin: 20px 0px;
+  padding: 20px 0px;
+  flex-wrap: wrap;
+  background-image: url(./img/Solution\ made\ easy.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-clip: content-box;
+}
+/* ? ===== Section__team end */
+
+/* ! ===== Section consultation start */
+.section__consultation {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 10px 0px;
+}
+/* .footer_mail h4 {
+  margin: 10px 0px;
+} */
+.button__send {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 0px;
+  width: 200px;
+  background-color: rgb(223, 32, 80);
+}
+/* ? ====== Section consultation end */
