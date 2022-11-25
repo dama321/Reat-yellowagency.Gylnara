@@ -22,14 +22,7 @@ function App() {
     <>
       <div className="container">
         <Header />
-        {/* <NavBar /> */}
-        {/* <Slider />
-        <Process />
-        <ProductList /> */}
-        {/* <OurClients /> */}
         <MainRoutes />
-        {/* <Contact />
-        <Pagination /> */}
         <Footer />
       </div>
     </>

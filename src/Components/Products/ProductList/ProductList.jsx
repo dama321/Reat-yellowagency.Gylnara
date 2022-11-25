@@ -31,6 +31,30 @@ const ProductList = () => {
       name: "Aliya Mamytova",
       position: "Сотрудник агентства",
     },
+    // {
+    //   id: 5,
+    //   image: imgAliya,
+    //   name: "Aliya Mamytova",
+    //   position: "Сотрудник агентства",
+    // },
+    // {
+    //   id: 6,
+    //   image: imgAliya,
+    //   name: "Aliya Mamytova",
+    //   position: "Сотрудник агентства",
+    // },
+    // {
+    //   id: 7,
+    //   image: imgAliya,
+    //   name: "Aliya Mamytova",
+    //   position: "Сотрудник агентства",
+    // },
+    // {
+    //   id: 8,
+    //   image: imgAliya,
+    //   name: "Aliya Mamytova",
+    //   position: "Сотрудник агентства",
+    // },
   ];
   return (
     <div style={{ display: "flex", width: "85vw" }}>
